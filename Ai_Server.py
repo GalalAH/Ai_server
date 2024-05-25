@@ -35,11 +35,11 @@ def predict():
         image = Image.open(file.stream)
         score = predict_parkinson_percentage(image)
 
-        response = {'prediction': str(score), "message": "predicted successfully"}
+        response = {'prediction': str(score), "message": "predicted successfully",status:200}
         return jsonify(response)
 
     except Exception as e:
-        return jsonify({'error': str(e)}), 500
+        return jsonify({'error': str(e),status:404}), 500
 
 if __name__ == '__main__':
     print("server is working")
