@@ -1,0 +1,6 @@
+Flask
+numpy
+Pillow
+scikit-image
+scikit-learn==1.2.2
+opencv-python-headless
