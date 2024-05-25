@@ -4,3 +4,4 @@ Pillow
 scikit-image
 scikit-learn==1.2.2
 opencv-python-headless
+gunicorn==20.1.0
