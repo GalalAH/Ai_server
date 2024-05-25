@@ -43,4 +43,4 @@ def predict():
 
 if __name__ == '__main__':
     print("server is working")
-    app.run(debug=False, port=5050)
+    app.run(debug=False)
