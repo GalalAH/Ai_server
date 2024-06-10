@@ -12,7 +12,7 @@ def quantify_image(image):
                            cells_per_block=(2, 2), transform_sqrt=True, block_norm="L1")
     return features
 
-with open("ParkinsonsDrawingPrediction (1).pkl", "rb") as file:
+with open("ParkinsonsDrawingPredictionSprial.pkl", "rb") as file:
     model = pickle.load(file)
 
 def predict_parkinson_percentage(image):
